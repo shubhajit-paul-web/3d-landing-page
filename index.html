@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shubhajit Paul">
+    <title>3D Animated Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div id="main">
+        <!-- HERO SECTION -->
+        <section class="hero-section">
+            <nav class="nav">
+                <div class="nav-left">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">Pricing</a>
+                    <a href="#" class="nav-link">Products</a>
+                </div>
+                <div class="nav-center">
+                    <a href="#" class="nav-link">Shubhajit</a>
+                </div>
+                <div class="nav-right">
+                    <a href="#" class="nav-link">Our Journey</a>
+                </div>
+            </nav>
+            <div class="hero-main">
+                <div class="box animElem2">
+                    <div class="content">
+                        <p>01</p>
+                        <h3>Sustainability</h3>
+                        <p>Commited to sustainability, eco friendly choices for a better tomorrow.</p>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="./images/pinkgreenplant.jpg" alt="Design Image" id="animImg1" />
+                    </div>
+                </div>
+                <div class="box animElem2">
+                    <div class="headings">
+                        <h1>Ephemeral</h1>
+                        <h1>Equilibrium.</h1>
+                    </div>
+                    <img src="./images/pinkplant.jpg" alt="Pinkplant Image" id="animImg2" />
+                    <p>
+                        Committed to <br />
+                        sustainability, eco - <br />
+                        friendly choices for a <br />
+                        better tomorrow.
+                    </p>
+                </div>
+                <div class="box animElem2">
+                    <div class="arrow-circle">
+                        <span>&#8595;</span>
+                    </div>
+                    <p>visit our gallery.</p>
+                </div>
+            </div>
+        </section>
+        <!-- OUR MOTIVE -->
+        <section class="our-motive">
+            <h2>our motive</h2>
+            <p>
+                At Sheryians, we are deeply committed to sustainability. We believe in a greener, more sustainable
+                future, <span></span> and it's at the core of everything we do. Our practices are designed with
+                environmental <span></span> responsibility in mind, from sourcing eco-friendly <span></span> materials
+                to reducing our carbon footprint.
+            </p>
+        </section>
+        <!-- PICTURES SECTION -->
+        <section class="pictures-section">
+            <div class="box box1">
+                <div class="picture">
+                    <img src="./images/sea.jpg" alt="sea image" id="pictureAnim1" />
+                </div>
+                <h3>Synergy.</h3>
+                <p>Commited to sustainability, eco friendly choices for a better tomorrow.</p>
+            </div>
+            <div class="box box2">
+                <div class="picture">
+                    <img src="./images/cloud.jpg" alt="cloud image" id="pictureAnim2" />
+                </div>
+                <h3>Harmony.</h3>
+                <p>Commited to sustainability, eco friendly choices for a better tomorrow.</p>
+            </div>
+        </section>
+        <!-- BANNER SECTION -->
+        <section class="banner-section">
+            <div class="left" id="bottleEffect">
+                <img src="./images/bottle.jpg" alt="" />
+                <img src="./images/bottle2.jpg" alt="" />
+            </div>
+            <div class="right">
+                <h4>Biodegradable Packaging</h4>
+                <p>Commited to sustainability, eco friendly choices for a better tomorrow.</p>
+            </div>
+        </section>
+        <!-- FUTURE SECTION -->
+        <section class="future-section">
+            <video src="./images/back.mp4" id="bg-video" autoplay muted loop></video>
+            <div class="content">
+                <h5>think of future</h5>
+                <button id="join-btn">join the movement</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script  type="text/javascript"  src="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.js"></script>
+    <!-- custom script -->
+    <script src="./app.js"></script>
+</body>
+</html>
